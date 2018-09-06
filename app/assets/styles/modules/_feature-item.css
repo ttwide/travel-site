@@ -23,12 +23,14 @@
     margin-top: .7em;
     margin-bottom: .8rem;
     text-align: center;
+
+    @mixin atSmall {
+      font-size: 1.875rem;
+      margin-top: 1em;
+      text-align: left;
+    }
   }
 
-  @mixin atSmall {
-    font-size: 1.875rem;
-    margin-top: 1em;
-    text-align: left;
-  }
+
 
 }
