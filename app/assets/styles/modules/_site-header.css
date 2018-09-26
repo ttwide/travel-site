@@ -1,7 +1,7 @@
 .site-header {
   padding: 10px 0;
   position: absolute;
-  z-index: 2;
+  z-index: 5;
   width: 100%;
   transition: background-color .3s ease-out;
 
@@ -41,7 +41,7 @@
       transform: translateX(0);
 
       .site-header--dark & {
-        transform: scale(.57);
+        transform: scale(.55);
       }
     }
   }

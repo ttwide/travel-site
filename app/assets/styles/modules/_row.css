@@ -99,8 +99,8 @@
 
 
   /* Begin Equal Height Rules */
-  &--equal-height-at-large {
-    @mixin atLarge {
+ .flexbox &--equal-height-at-medium {
+    @mixin atMedium {
       display: flex;
     }
 
@@ -111,16 +111,16 @@
 
   }
 
-}
+ .flexbox &--equal-height-at-large {
+    @mixin atLarge {
+      display: flex;
+    }
 
-&--equal-height-at-medium {
-  @mixin atMedium {
-    display: flex;
-  }
+    & > div {
+      float: none;
+      display: flex;
+    }
 
-  & > div {
-    float: none;
-    display: flex;
   }
 
 }
